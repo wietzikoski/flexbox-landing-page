@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+}
+/* 
+COLORS
+dark backround color
+#1f2937
+
+*/
+
+/* HEADER STYLES */
+header {
+    background-color: #1f2937;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+header h1{
+    margin: 0;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* NAVIGATION */
+.nav-container ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 10px;
+}
+.nav-container a {
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+}
