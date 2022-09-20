@@ -15,10 +15,6 @@ dark backround color
 header {
     background-color: #1f2937;
     margin: 0;
-    /* display: flex; */
-    /* justify-content: space-around; */
-    /* padding: 5px 0; */
-    
 }
 .header-wrapper {
     max-width: 1040px;
@@ -83,6 +79,8 @@ header h1{
 button.sign-up {
     width: 120px;
     font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
     background-color: #3882f6;
     color: #F9FAF8;
     padding: 10px 0;
@@ -97,4 +95,44 @@ button.sign-up {
     background-color:#6C747D;
     justify-content: center;
     align-items: center;
+}
+
+/* RANDOM INFO SECTION STYLES */
+.random-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.random-wrapper h2 {
+    font: Roboto, sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+    padding: 15px 0;
+}
+.random-tile-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+}
+
+.random-group {
+    display: flex;
+    flex-direction: column;
+}
+.tile {
+    height: 160px;
+    width: 160px;
+    border: #3882f6 4px solid;
+    border-radius: 15px;
+    margin-bottom: 6px;
+}
+.tile-text {
+    width: 162px;
+    text-align: center;
+    font-size: 17px;
+    color: #6C747D;
 }
